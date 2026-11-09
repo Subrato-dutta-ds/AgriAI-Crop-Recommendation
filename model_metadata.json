@@ -1,0 +1,51 @@
+{
+  "n_samples": 2200,
+  "n_classes": 22,
+  "classes": [
+    "apple",
+    "banana",
+    "blackgram",
+    "chickpea",
+    "coconut",
+    "coffee",
+    "cotton",
+    "grapes",
+    "jute",
+    "kidneybeans",
+    "lentil",
+    "maize",
+    "mango",
+    "mothbeans",
+    "mungbean",
+    "muskmelon",
+    "orange",
+    "papaya",
+    "pigeonpeas",
+    "pomegranate",
+    "rice",
+    "watermelon"
+  ],
+  "features": [
+    "N",
+    "P",
+    "K",
+    "temperature",
+    "humidity",
+    "ph",
+    "rainfall"
+  ],
+  "baseline": {
+    "cv_accuracy_mean": 0.9954545454545455,
+    "cv_accuracy_std": 0.0032141217326661065,
+    "top3_accuracy": 1.0,
+    "max_proba_mean": 0.9563863636363638,
+    "high_conf_share": 0.735
+  },
+  "improved": {
+    "cv_accuracy_mean": 0.9950000000000001,
+    "cv_accuracy_std": 0.00222680885707559,
+    "top3_accuracy": 1.0,
+    "max_proba_mean": 0.9468191518056456,
+    "high_conf_share": 0.7009090909090909
+  }
+}

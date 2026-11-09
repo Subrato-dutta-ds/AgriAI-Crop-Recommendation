@@ -1,0 +1,20 @@
+# Virtual Environments (Huge)
+venv/
+env/
+.venv/
+ENV/
+
+# Datasets & Models (Too large for Git)
+*.keras
+*.h5
+disease_model/
+data/
+
+# Python Caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.ipynb
+
+# Secrets
+.env
